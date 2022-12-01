@@ -1,0 +1,17 @@
+Experiment 1
+
+print(generation_fitness)
+print(sum(generation_time))
+print(generation_score)
+print(generation_failure_rate)
+print(best_pop[-1])
+print(tot_score[np.argmax(fitness)])
+
+[0.7255, 0.6965, 0.7175, 0.6805, 0.694, 0.7165, 0.7725, 0.7305, 0.721, 0.728, 0.684, 0.765, 0.733, 0.8055]
+50979.18000000001
+[0.8175, 0.804, 0.8015, 0.8035, 0.8205, 0.849, 0.895, 0.888, 0.8775, 0.8715, 0.838, 0.903, 0.929, 0.9585]
+[0.0181, 0.0265, 0.0724, 0.0224, 0.0307, 0.0384, 0.0259, 0.0058, 0.0071, 0.0038, 0.0086, 0.0086, 0.0, 0.0]
+{'bucketing': 15, 'encoding': 'index', 'drop_act': 8, 'LightGBM': {'max_depth': 10, 'num_leaves': 325, 'min_child_samples': 5}}
+0.98
+
+
