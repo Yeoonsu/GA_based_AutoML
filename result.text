@@ -66,3 +66,20 @@ random search (1300분, 22시간)
 
 best score is  1.0
 total time is  96289.6976
+
+<experiment 5>
+
+print(generation_fitness)
+print(sum(generation_time))
+print(generation_score)
+print(generation_failure_rate)
+print(best_pop[-1])
+print(tot_score[np.argmax(fitness)])
+
+
+[0.7, 0.74, 0.8, 0.85, 0.87, 0.89, 0.89, 0.88, 0.89, 0.9, 0.87, 0.88, 0.89, 0.9, 0.73, 0.76, 0.79, 0.81, 0.81, 0.86]
+250253.38000000003
+[0.87, 0.88, 0.91, 0.93, 0.94, 0.95, 0.95, 0.96, 0.97, 0.96, 0.97, 0.97, 0.97, 0.97, 0.97, 0.97, 0.97, 0.98, 0.98, 0.98]
+[0.05, 0.03, 0.02, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+{'bucketing': 8, 'encoding': 'index', 'drop_act': 8, 'models': 'Xgboost', 'Xgboost': {'max_depth': 10, 'n_estimators': 862, 'learning_rate': 0.01}}
+0.98
